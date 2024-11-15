@@ -1,11 +1,478 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigortam.net: Sigortada Güvenin Tek Adresi</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/images/app-logo-goat.svg" type="image/svg">
+    <title>Sigortam.net</title>
 </head>
 <body>
-    <h1>Başlık</h1>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="assets/images/app-logo-goat.svg" alt="Sigortam.net Icon" class="logo-icon">
+                <img src="assets/images/app-logo-title.svg" alt="Sigortam.net Text" class="logo-text">
+            </div>
+            <nav class="nav-menu">
+                <a href="#">Ürünlerimiz</a>
+                <a href="#">Kampanyalar</a>
+                <a href="#">Poliçe İşlemleri</a>
+                <a href="#">Bilgi Merkezi</a>
+            </nav>
+            <div class="contact-info">
+                <div class="phone-description">
+                    <span>Yardımcı olmaya hazırız</span>
+                    <div id="phone-info">
+                        <img src="assets/images/phone-icon.png" alt="" class="phone-icon">
+                        <p>444 22 00</p>
+                    </div>
+                </div>
+                <a href="#" class="login-button">Giriş Yap / Üye Ol</a>
+            </div>
+        </div>
+    </header>
+
+    <br>
+    <div class="hero-section">
+        <h1 class="hero-title">Sigortada Güvenin Adresi</h1>
+        <p class="hero-subtitle">Doğru Ürün. İyi Fiyat. 7/24 Hizmet.</p>
+    </div>    
+
+       <section class="insurance-grid">
+        <div class="insurance-card large">
+            <img src="assets/images/kasko-logo.svg" alt="Kasko">
+            <h5>Kasko</h5>
+        </div>
+        <div class="insurance-card large">
+            <span class="discount-badge">%10 İndirim</span>
+            <img src="assets/images/electric-vehicle-orange-logo.svg" alt="Elektrikli Araç Kaskosu">
+            <h5>Elektrikli Araç Kaskosu</h5>
+        </div>
+        <div class="insurance-card large">
+            <img src="assets/images/complementhealth-v2.svg" alt="Tamamlayıcı Sağlık">
+            <h5>Tamamlayıcı Sağlık</h5>
+        </div>
+    </section>
+
+    <section class="small-cards">
+        <div class="insurance-card">
+            <img src="assets/images/traffic-orange.svg" alt="Trafik Sigortası">
+            <h5>Trafik Sigortası</h5>
+        </div>
+        <div class="insurance-card">
+            <img src="assets/images/imm.svg" alt="İMM">
+            <h5>İMM</h5>
+        </div>
+        <div class="insurance-card">
+            <img src="assets/images/health-orange.svg" alt="Özel Sağlık">
+            <h5>Özel Sağlık</h5>
+        </div>
+        <div class="insurance-card">
+            <img src="assets/images/travel-logo.svg" alt="Seyahat Sağlık">
+            <h5>Seyahat Sağlık</h5>
+        </div>
+        <div class="insurance-card">
+            <img src="assets/images/dask-v2-logo.svg" alt="DASK">
+            <h5>DASK</h5>
+        </div>
+    </section>
+
+    <div class="view-all">
+        <a href="#">Tüm Ürünleri Gör</a>
+    </div>
+
+    <section class="container">
+        <h1>Poliçemi neden Sigortam.net'ten almalıyım?</h1>
+        <div class="feature-container">
+          <div class="feature">
+            <img src="assets/images/policy-trustworthy.svg" alt="Doğru Ürün">
+            <h2>Doğru Ürün</h2>
+            <p>Yenilenen yapay zekâmızla, onlarca sigorta teklifi arasından ucuzunu, sana uygununu ve kapsamlısını buluyoruz. Net teminatlar ve net fiyatlarla karar hep net olsun.</p>
+          </div>
+          <div class="feature">
+            <img src="assets/images/policy-price.svg" alt="İyi Fiyat">
+            <h2>İyi Fiyat</h2>
+            <p>Önceligimiz her zaman sensin. Çalıştığımız tüm şirketlerde bütçeni düşünerek "en iyi fiyat garantisi" sunuyoruz.</p>
+          </div>
+          <div class="feature">
+            <img src="assets/images/policy-with-you.svg" alt="7/24 Hizmet">
+            <h2>7/24 Hizmet</h2>
+            <p>24 yıllik tecrübemiz ve uzman sigortacılarımızla 7/24 her ihtiyacında yanındayız. Üstelik hasar anında saniyeler içinde bize ulaşabilirsin.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="phone-section">
+        <div class="content">
+            <div class="content-text">
+                <h2>Hangi ürün bana en uygun diye düşünme, biz senin için en net teklifleri sıraladık bile!</h2>
+                <p>Tüm teminatları tek tek inceledik, ihtiyaçlarına en uygun olan teminatları belirledik. Sana özel kapsamlı ve fiyatı uygun ürün önerileri hazırladık.</p>
+                <a href="#">Hemen Teklif Al →</a>
+            </div>
+            <div class="phone-image">
+                <img src="assets/images/phone-mockup.jpg" alt="Phone">
+                <p class="phone-description">Görseldeki fiyatlar temsilidir. Aracına özel fiyatları tekliflerde görebilirsin.</p>
+            </div>
+        </div>
+
+      </section>
+         
+      <div class="slider-container">
+        <h1>Sigortam.net'te sana özel neler var?</h1>
+        <div class="slider-buttons">
+            <button class="active" data-slider="kampanyalar">İndirimler & Kampanyalar</button>
+            <button data-slider="reklamlar">Reklam Filmleri</button>
+            <button data-slider="one-cikanlar">Öne Çıkanlar</button>
+        </div>
+        <div class="slider-wrapper">
+            <div id="slide-and-arrow">
+                <div class="slide-arrow prev-arrow">&#10094;</div>
+                <div id="all-slides">
+                    <!-- Kampanyalar Slider -->
+                    <div class="slider active" id="kampanyalar">
+                        <div class="slide active">
+                            <div class="slide-content">
+                                <div class="slide-text">
+                                    <div >n11 üzerinden yapılan her 500TL'lik alışverişe anında 150TL'lik kupon</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/slider-kampanya-1.jpg" alt="Kampanya 1" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <div class="slide-text">
+                                    <div >Arkadaşlarını davet et, 20.000TL'ye varan hediye çeki kazan!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/slider-kampanya-2.jpg" alt="Kampanya 1" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <div class="slide-text">
+                                    <div >Petrol Ofisi Müşterilerine Özel Kaskoda %6 indirim!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/slider-kampanya-3.jpg" alt="Kampanya 1" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <div class="slide-text">
+                                    <div >Kaskoda %60'a varan hasarsızlık indirimi!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/slider-kampanya-4.jpg" alt="Kampanya 1" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content">
+                                <div class="slide-text">
+                                    <div >%25'e varan meslek indirimleriyle kaskon Sigortam.net'te!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/slider-kampanya-5.jpg" alt="Kampanya 1" class="slide-image">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Reklam Filmleri Slider -->
+                    <div class="slider" id="reklamlar">
+                        <!-- İlk Video Slide -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <iframe class="slide-video"
+                                    src="https://www.youtube.com/embed/OMyxYmyyJRg?si=XDAdQDsif-dgnqGm" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- İkinci Video Slide -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <iframe class="slide-video"
+                                    src="https://www.youtube.com/embed/fkTBn_w8Jzw?si=f3SsioEMt_RzbOsZ" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- Üçüncü Video Slide -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <iframe class="slide-video"
+                                    src="https://www.youtube.com/embed/-ZpvfneEadA?si=tr3z1vipRLnYSJKX" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- Dördüncü Video Slide -->
+                        <div class="slide">
+                            <div class="slide-content">
+                                <iframe class="slide-video"
+                                    src="https://www.youtube.com/embed/UQ-3UkXC09E?si=WF_cBREfcCx7sGEX" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Öne Çıkanlar Slider -->
+                    <div class="slider" id="one-cikanlar">
+                        <div class="slide active">
+                            <div class="slide-content" id="orange">
+                                <div class="slide-text">
+                                    <div >Paylaş Kazan Sigortam.net'te!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/one-cikanlar-1.jpg" alt="Öne Çıkanlar" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content" id="orange">
+                                <div class="slide-text">
+                                    <div >İyi sürücü kaskoya az öder!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/one-cikanlar-2.jpg" alt="Öne Çıkanlar" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content" id="orange">
+                                <div class="slide-text">
+                                    <div >İhtiyacına uygun sağlık sigortası Sigortam.net'te!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/one-cikanlar-3.jpg" alt="Öne Çıkanlar" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content" id="orange">
+                                <div class="slide-text">
+                                    <div >Seyahat Sağlık Sigortası Sigortam.net'te!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/one-cikanlar-4.jpg" alt="Öne Çıkanlar" class="slide-image">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="slide-content" id="orange">
+                                <div class="slide-text">
+                                    <div >Türkiye'nin en çok ziyaret edilen sigorta platformu!</div>
+                                    <a href="" id="link">Hemen Keşfet →</a>
+                                </div>
+                                <img src="assets/images/one-cikanlar-5.jpg" alt="Öne Çıkanlar" class="slide-image">
+                            </div>
+                        </div>
+                        <!-- Diğer öne çıkan slide'ları -->
+                    </div>
+                </div>
+                <div class="slide-arrow next-arrow">&#10095;</div>
+            </div>
+            <!-- Navigation Dots -->
+            <div id="navigation-dots" class="navigation"></div>
+        </div>
+    </div> 
+
+
+    <div class="testimonial-container">
+        <h1>10 Milyon Mutlu Müşteri, 50+ Milyon Poliçe Teklifi</h1>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>Internetten alınan bir poliseden çok daha fazlası. Kaza anında çekicinin gelmesinden tutun sağlık durumunuza kadar her şeyle ilgileniyorlar.</p>
+                <div class="author">Kasım Ş.</div>
+            </div>
+            <div class="testimonial">
+                <p>Sigortam.net sayesinde evden çıkmadan tek bir telefonla trafik sigortası ve kaskoyu yaptırdım. Hızlı, sorunsuz ve güvenilir.</p>
+                <div class="author">Murat İ.</div>
+            </div>
+            <div class="testimonial">
+                <p>Piyasadan alabileceğim kasko poliçesini aynı kapsamda, daha ucuza ve profesyonel hizmetle Sigortam.net üzerinden satın aldım.</p>
+                <div class="author">Şaban K.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="awards-container">
+        <div class="content">
+            <div class="text-section">
+            <h1>Ödüllerimizden bahsetmiş miydik?</h1>
+            <p>Dünyanın en prestijli ödüllerinden biri olan Stevie Awards’ta Sigorta Sektörünün En İyi Web Sitesi Ödülü’nü kazandık. Sizinle yürüdüğümüz bu yolda nice ödülleri kucaklamak dileğiyle...</p>
+            <a href="#">Detaylı Bilgi →</a>
+            </div>
+            <div class="awards-section">
+            <img src="assets/images/snet-gold-winner-badge.png" alt="Award 1">
+            <img src="assets/images/if-design-award-2024-vertical.png" alt="Award 2">
+            </div>
+        </div>
+    </div>
+
+    <div class="categories-section">
+        <div class="content">
+            <div class="categories-title">
+                <h1>Sigortada Güvenin Adresi</h1>
+                <p class="hero-subtitle">Doğru Ürün. İyi Fiyat. 7/24 Hizmet.</p>
+            </div>
+            <div>
+                <section class="small-cards">
+                    <div class="insurance-card">
+                        <img src="assets/images/traffic-logo.svg" alt="Trafik Sigortası">
+                        <h5>Trafik Sigortası</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/kasko-logo.svg" alt="Özel Sağlık">
+                        <h5>Kasko</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/imm.svg" alt="İMM">
+                        <h5>İMM</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/complementhealth-v2.svg" alt="DASK">
+                        <h5>Tamamlayıcı Sağlık</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/health-v2.svg" alt="Özel Sağlık">
+                        <h5>Özel Sağlık</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/travel-logo.svg" alt="Seyahat Sağlık">
+                        <h5>Seyahat Sağlık</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/dask-blue.svg" alt="DASK">
+                        <h5>DASK</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/home-blue.svg" alt="DASK">
+                        <h5>Evim Güvende</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/housing-blue.svg" alt="DASK">
+                        <h5>Konut Sigortası</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/personal-accident-blue.svg" alt="DASK">
+                        <h5>Ferdi Kaza</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/pet-v2.svg" alt="DASK">
+                        <h5>Evcil Hayvan</h5>
+                    </div>
+                    <div class="insurance-card">
+                        <img src="assets/images/phone-blue.svg" alt="DASK">
+                        <h5>Cep Telefonu</h5>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">
+            <div class="logo">
+                <div class="logo-images">
+                    <img src="assets/images/app-logo-goat.svg" alt="Sigortam.net Logo">
+                    <img src="assets/images/app-logo-title.svg" alt="Sigortam.net Logo">
+                </div>
+                <div class="copyright-text">© 2000-2024 Sigortam.net</div>
+            </div>
+            <div class="awards">
+                <img src="assets/images/snet-gold-winner-badge.png" alt="Quality Award">
+                <img src="assets/images/if-design-award-2024-horizontal.png" alt="iF Design Award 2024">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ürünlerimiz</h3>
+                    <ul>
+                        <li><a href="#">Kasko Sigortası</a></li>
+                        <li><a href="#">Trafik Sigortası</a></li>
+                        <li><a href="#">İMM Sigortası</a></li>
+                        <li><a href="#">Tamamlayıcı Sağlık Sigortası</a></li>
+                        <li><a href="#">Özel Sağlık Sigortası</a></li>
+                        <li><a href="#">Konut Sigortası</a></li>
+                        <li><a href="#">DASK</a></li>
+                        <li><a href="#">Evim Güvende Sigortası</a></li>
+                        <li><a href="#">Ferdi Kaza Sigortası</a></li>
+                        <li><a href="#">Telefon Kaskosu</a></li>
+                        <li><a href="#">Evcil Hayvan Sigortası</a></li>
+                        <li><a href="#">Seyahat Sağlık Sigortası</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3>Merak Edilenler</h3>
+                    <ul>
+                        <li><a href="#">Günlük, Haftalık ve Aylık Kasko</a></li>
+                        <li><a href="#">Doğum Sigortası Fiyatları</a></li>
+                        <li><a href="#">Hamileyken Doğum Sigortası</a></li>
+                        <li><a href="#">İMM Sigortası Nedir</a></li>
+                        <li><a href="#">İnternetten Trafik Sigortası Yaptırmak</a></li>
+                        <li><a href="#">Sağlık Sigortası Karşılaştırma</a></li>
+                        <li><a href="#">SBM Teklif Al</a></li>
+                        <li><a href="#">Trafik Sigortası Şirketleri</a></li>
+                        <li><a href="#">TSS Doğum Paketi</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3>Hızlı Erişim</h3>
+                    <ul>
+                        <li><a href="#">Araç Yakıt Hesaplama</a></li>
+                        <li><a href="#">Kasko Değer Listesi</a></li>
+                        <li><a href="#">MTV Hesaplama</a></li>
+                        <li><a href="#">ÖTV Hesaplama</a></li>
+                        <li><a href="#">Trafik Sigortası Basamakları Hesaplama</a></li>
+                        <li><a href="#">Tramer Kaydı Sorgulama</a></li>
+                        <li><a href="#">Zorunlu Trafik Sigortası Fiyatları</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3>Hakkımızda</h3>
+                    <ul>
+                        <li><a href="#">Biz Kimiz?</a></li>
+                        <li><a href="#">İletişim</a></li>
+                        <li><a href="#">Ödüllerimiz</a></li>
+                        <li><a href="#">İşlem Rehberi</a></li>
+                        <li><a href="#">Kariyer</a></li>
+                        <li><a href="#">Kullanıcı Sözleşmesi</a></li>
+                        <li><a href="#">Kişisel Verilerin Korunması</a></li>
+                        <li><a href="#">Gizlilik ve Çerez Politikası</a></li>
+                        <li><a href="#">Çerez Tercihleri</a></li>
+                        <li><a href="#">Sigortam.net Basketbol Takımı</a></li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section contact-section">
+                    <div class="help-text">Yardımcı olmaya hazırız</div>
+                    <div class="phone-number">444 24 00</div>
+                    <div class="social-text">Bizi Takip Edin</div>
+                    <div class="social-icons">
+                        <a href="#"><img src="assets/images/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="assets/images/x-logo.svg" alt="Twitter"></a>
+                        <a href="#"><img src="assets/images/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="assets/images/linkedin.svg" alt="LinkedIn"></a>
+                        <a href="#"><img src="assets/images/youtube-filled.svg" alt="YouTube"></a>
+                    </div>
+                    <div class="security-badges">
+                        <img src="assets/images/guven-damgasi.svg" alt="TR Damgası">
+                        <img src="assets/images/etbis.jfif" alt="ETBIS" id="qr">
+                        <img src="assets/images/ssl.svg" alt="SSL">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/app.js"></script>
+    
 </body>
 </html>
